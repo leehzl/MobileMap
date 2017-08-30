@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.lilynlee.mobilemap.view.ArcMenu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:sate="http://schemas.android.com/apk/res/com.lilynlee.mobilemap"
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sate:position="left_bottom"
+        sate:radius="200dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/main_menu">
+            <ImageView
+                android:id="@+id/menu_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+                <!--android:src="@mipmap/composer_button"-->
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu_2d"
+            android:tag="Map_2D"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu_sate"
+            android:tag="Map_Sate"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu_report"
+            android:tag="Report"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu_list"
+            android:tag="List"/>
+    </com.lilynlee.mobilemap.view.ArcMenu>
